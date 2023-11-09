@@ -238,6 +238,31 @@ nav .close-icon {
 	justify-content: space-around;
 }
 
+.sobre .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sobre .sobre-text {
+	width: 50%;
+	padding-right: 40px;
+}
+
+.sobre p {
+	margin: 18px 0;
+	color: #000000a6;
+}
+
+.sobre .sobre-img {
+	width: 50%;
+}
+
+.sobre .sobre-img img {
+	width: 100%;
+	border-radius: 10px;
+}
+
 footer {
 	background-color: #4f9cf9;
 	text-align: center;
@@ -260,6 +285,7 @@ footer a {
 	text-decoration: none;
 }
 
+/* menu mobile*/
 @media(max-width: 830px) {
 	.ul {
 		position: fixed;
@@ -290,7 +316,4 @@ footer a {
 		top: 45px;
 		right: 40px;
 	}
-
-
-
 }
