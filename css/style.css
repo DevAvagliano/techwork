@@ -136,12 +136,14 @@ nav .close-icon {
 .banner-text a {
 	margin: 20px;
 }
+
+/* Style Seção Conteúdo *****************************/
+
 .conteudo .container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 5rem;
-	
+	padding-top: 5rem;
 }
 
 .conteudo .container:nth-child(2) {
@@ -149,11 +151,7 @@ nav .close-icon {
 }
 
 .conteudo .container .cont-text {
-	
 	align-items: center;
-}
-.conteudo .cont-text h3 {
-	font-size: 56px;
 }
 
 .conteudo .cont-text p {
@@ -170,7 +168,69 @@ nav .close-icon {
 }
 
 .conteudo .cont-img img {
-	width: 100%;
+	width: 350px;
+	background-color: #d3e6fd;
+}
+
+/* Style Seção Serviços *****************************/
+.servicos {
+	padding: 10% 0 10%;
+}
+
+.servicos .container h3,
+.servicos .container > p {
+	text-align: center;
+}
+
+.servicos .rows-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.servicos .row-card-item {
+	background-color: #d3e6fd;
+	width: 350px;
+	height: 220px;
+	padding: 12px;
+	margin: 15px;
+	border-radius: 15px;
+	transition: 0.5s;
+}
+
+.servicos .row-card-item:hover {
+	background-color: #4f9cf9;
+	margin-top: -2px;
+}
+
+.servicos .row-card-item:hover p {
+	color: #fff;
+}
+
+.servicos .row-card-item img {
+	background-color: #4f9cf9;
+	border-radius: 15px;
+	width: 70px;
+	padding: 10px;
+}
+
+.servicos .row-card-item p.serv-name {
+	margin: 5px 0;
+	transition: 0.5s;
+}
+
+.servicos .row-card-item p.serv-text {
+	transition: 0.5s;
+}
+
+
+
+
+
+/* Style Seção Depoimentos *****************************/
+.depoimentos {
+	padding: 10% 0;
 }
 
 .depoimentos h3,
@@ -240,6 +300,7 @@ nav .close-icon {
 	color: #fff;
 }
 
+/* Style Seção Clientes *****************************/
 .clientes h3,
 .clientes p {
 	text-align: center;
@@ -251,6 +312,7 @@ nav .close-icon {
 	justify-content: space-around;
 }
 
+/* Style Seção Sobre *****************************/
 .sobre .container {
 	display: flex;
 	align-items: center;
@@ -276,6 +338,7 @@ nav .close-icon {
 	border-radius: 10px;
 }
 
+/* Style Rodapé *****************************/
 footer {
 	background-color: #4f9cf9;
 	text-align: center;
@@ -298,7 +361,7 @@ footer a {
 	text-decoration: none;
 }
 
-/* menu mobile*/
+/* Style Menu Mobile ****************************/
 @media(max-width: 830px) {
 	.ul {
 		position: fixed;
