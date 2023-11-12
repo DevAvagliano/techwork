@@ -139,7 +139,7 @@ nav .close-icon {
 
 /* Style Seção Conteúdo *****************************/
 .conteudo {
-  padding: 10% 0 10%;
+  padding: 10% 0;
   background-color: #d3e6fd;
 }
 
@@ -148,20 +148,15 @@ nav .close-icon {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin-top: 0px;
 }
+
 
 .conteudo .row-card-item {
   width: 500px;
   padding: 10px;
-  border-radius: 15px;
   transition: 0.5s;
 }
 
-.conteudo .rows-cards img {
-  width: 450px;
-  padding: 10px;
-}
 
 .conteudo .row-card-item h3 {
   transition: 0.5s;
@@ -174,9 +169,11 @@ nav .close-icon {
 
 /* Style Seção Serviços *****************************/
 .servicos {
-  padding: 10% 0 10%;
+  padding: 10% 0;
 }
-
+.servicos .container > p {
+  padding: 10px 0;
+}
 .servicos .container h3,
 .servicos .container > p {
   text-align: center;
@@ -224,9 +221,72 @@ nav .close-icon {
   transition: 0.5s;
 }
 
+
+
+/* Style Seção Clientes *****************************/
+.clientes {
+  padding: 10% 0;
+  background-color: #d3e6fd;
+}
+.clientes p {
+  padding: 10px 0;
+}
+.clientes .container h3,
+.clientes .container > p {
+  text-align: center;
+}
+
+.clientes .rows-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.clientes .row-card-item {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.clientes .row-card-item:hover {
+  margin-top: -2px;
+}
+
+/* Style Seção Sobre *****************************/
+.sobre {
+  padding: 10% 0;
+}
+.sobre .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sobre .sobre-text {
+  width: 40%;
+  
+}
+
+.sobre p {
+  margin: 18px 0;
+  color: #000000a6;
+  text-align: justify;
+}
+
+.sobre .sobre-img {
+  width: 50%;
+}
+
+.sobre .sobre-img img {
+  width: 80%;
+  border-radius: 10px;
+}
+
 /* Style Seção Depoimentos *****************************/
 .depoimentos {
-  padding: 10% 0;
+  padding: 5% 0;
 }
 
 .depoimentos h3,
@@ -235,7 +295,7 @@ nav .close-icon {
 }
 
 .depoimentos p {
-  margin-bottom: 20px;
+  padding: 10px 0;
 }
 
 .depoimentos .cards {
@@ -295,63 +355,9 @@ nav .close-icon {
   color: #fff;
 }
 
-/* Style Seção Clientes *****************************/
-.clientes {
-  padding: 5% 0 5%;
-  background-color: #d3e6fd;
-}
-
-.clientes .container h3,
-.clientes .container > p {
-  text-align: center;
-}
-
-.clientes .rows-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.clientes .row-card-item {
-  width: 300px;
-  height: auto;
-  padding: 10px;
-  transition: 0.5s;
-}
-
-.clientes .row-card-item:hover {
-  margin-top: -2px;
-}
-
-/* Style Seção Sobre *****************************/
-.sobre .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.sobre .sobre-text {
-  width: 50%;
-  padding-right: 40px;
-}
-
-.sobre p {
-  margin: 18px 0;
-  color: #000000a6;
-}
-
-.sobre .sobre-img {
-  width: 50%;
-}
-
-.sobre .sobre-img img {
-  width: 100%;
-  border-radius: 10px;
-}
-
 /* Style Rodapé *****************************/
 footer {
+  padding: 1% 0;
   background-color: #4f9cf9;
   text-align: center;
 }
@@ -370,12 +376,13 @@ footer a {
   color: #0000009c;
   font-size: 14px;
   text-decoration: none;
-  margin-bottom: 10px;
+  margin: 0 10px 0;
 }
 
 footer .footer-text {
   padding-bottom: 20px;
 }
+
 
 /* Style Menu Mobile ****************************/
 @media (max-width: 830px) {
