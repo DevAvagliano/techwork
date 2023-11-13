@@ -169,7 +169,7 @@ nav .close-icon {
 
 /* Style Seção Serviços *****************************/
 .servicos {
-  padding: 10% 0;
+  padding-top: 10%;
 }
 .servicos .container > p {
   padding: 10px 0;
@@ -220,6 +220,56 @@ nav .close-icon {
 .servicos .row-card-item p.serv-text {
   transition: 0.5s;
 }
+.dados {
+  padding-bottom: 10%;
+  margin-top: 5%;
+}
+.dados .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dados .dados-item {
+  padding: 0 30px 0;
+  color: #000000be;
+  text-align: center;
+}
+
+.dados .dados-item img {
+  background-color: #4f9cf9;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 70px;
+  transition: .3s;
+}
+
+.dados .dados-item p {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.dados .dados-item p strong {
+  font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
