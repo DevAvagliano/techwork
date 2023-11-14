@@ -400,11 +400,110 @@ nav .close-icon {
 }
 
 /* Style Contato *****************************/
+.contato {
+  background: #d3e6fd;
+  padding: 5% 0;
+
+}
+.contato .container h3,
+.contato .container > p {
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
 .contato-info {
   display: flex;
+  align-items:start;
   justify-content: space-between;
   margin-top: 50px;
+  min-height: 80vh;
 }
+
+.contato .right-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 40px;
+  background: #d3e6fd;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.contato .right-side form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form label {
+  color: #184b88;
+  font-size: 15px;
+  margin:8px 0;
+  font-weight: 600;
+}
+
+form input {
+  padding: 10px;
+  outline: none;
+  border: 0;
+  margin-bottom: 20px;
+  font-size: 15px;
+  transition: all 0.3s;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  
+}
+
+form input:focus,
+form textarea:focus {
+  background-color: #fff;
+  border-radius: 10px;
+
+}
+
+form textarea {
+  padding: 10px;
+  outline: none;
+  border: 0;
+  margin-bottom: 20px;
+  font-size: 15px;
+  transition: all 0.3s;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+#button {
+  text-align: center;
+  padding: 10px 0;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Style Rodapé *****************************/
 footer {
