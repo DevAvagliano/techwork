@@ -137,7 +137,7 @@ nav .close-icon {
   margin: 20px;
 }
 
-/* Style Seção Conteúdo *****************************/
+/* Style Seção Conteúdo ---------------------------*/
 .conteudo {
   padding: 5% 0;
   background-color: #d3e6fd;
@@ -165,7 +165,7 @@ nav .close-icon {
   transition: 0.5s;
 }
 
-/* Style Seção Serviços *****************************/
+/* Style Seção Serviços ---------------------------*/
 .servicos {
   padding-top: 10%;
 }
@@ -268,7 +268,7 @@ nav .close-icon {
   font-size: 28px;
 }
 
-/* Style Seção Clientes *****************************/
+/* Style Seção Clientes ---------------------------*/
 .clientes {
   padding: 10% 0;
   background-color: #d3e6fd;
@@ -299,7 +299,7 @@ nav .close-icon {
   margin-top: -2px;
 }
 
-/* Style Seção Sobre *****************************/
+/* Style Seção Sobre ---------------------------*/
 .sobre {
   padding: 10% 0;
 }
@@ -328,7 +328,7 @@ nav .close-icon {
   border-radius: 10px;
 }
 
-/* Style Seção Depoimentos *****************************/
+/* Style Seção Depoimentos ---------------------------*/
 .depoimentos {
   padding-bottom: 10%;
 }
@@ -399,7 +399,7 @@ nav .close-icon {
   color: #fff;
 }
 
-/* Style Contato *****************************/
+/* Style Contato ---------------------------*/
 .contato {
   background: #d3e6fd;
   padding: 5% 0;
@@ -428,7 +428,7 @@ nav .close-icon {
 .contato-info .left-side div {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #icon i {
@@ -447,19 +447,13 @@ nav .close-icon {
 
 #icon i:hover {
   color: #184b88;
-  
 }
 
 .contato-info .left-side div i {
-  font-size: 30px;
+  font-size: 20px;
   margin-right: 20px;
   color: #4f9cf9;
 }
-
-
-
-
-
 
 .contato .right-side {
   width: 450px;
@@ -514,40 +508,20 @@ form textarea {
   transition: all 0.3s;
   border-radius: 10px;
   background-color: #f5f5f5;
+  resize: none;
+}
+
+form button {
+  border: none;
 }
 
 #button {
   text-align: center;
   padding: 10px 0;
-  
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Style Rodapé *****************************/
+/* Style Rodapé ---------------------------*/
 footer {
   padding: 1% 0;
   background-color: #4f9cf9;
@@ -566,8 +540,15 @@ footer .footer-text {
   padding-bottom: 20px;
 }
 
-/* Style Menu Mobile ****************************/
+
+/* Style Menu Mobile ---------------------------*/
+/* Style Menu Mobile ---------------------------*/
+/* Style Menu Mobile ---------------------------*/
+
 @media (max-width: 830px) {
+
+
+  /* Menu responsivo --------------------------- */
   .ul {
     position: fixed;
     top: 0;
@@ -597,4 +578,17 @@ footer .footer-text {
     top: 45px;
     right: 40px;
   }
+
+  /* Página responsiva --------------------------- */
+  .conteudo .rows-cards .row-card-item {
+    margin-top: 10px;
+    padding: 0 20px;
+    order: 2;
+
+
+  }
+
+
+
+
 }
