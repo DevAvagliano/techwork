@@ -13,7 +13,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Site Responsivo</title>
+    <title>Web design | Responsive</title>
   </head>
   <body>
     <header id="home" style="background-image: url('img/background-home.jpg')">
@@ -28,7 +28,7 @@
             <a href="#servicos">Serviços</a>
             <a href="#clientes">Clientes</a>
             <a href="#sobre">Sobre nós</a>
-            <a class="btn" href="contato.html">Contato</a>
+            <a class="btn" href="#contato">Contato</a>
 
             <div class="close-icon" onclick="closeMenu()">
               <i class="fa fa-times-circle"></i>
@@ -44,11 +44,8 @@
       <!-- Seção Banner ------------------------------------>
       <section class="banner">
         <div class="banner-text">
-          <h1>Whitepace</h1>
-          <p>
-            Constua a sua marca, conquiste o mundo sem habilidades de código ou
-            design cecessárias
-          </p>
+          <h1>Techwork</h1>
+          <p>Constuimos sua marca com habilidades no código e design</p>
           <a class="btn animate-btn" href="contato.html">Entar em contato</a>
         </div>
       </section>
@@ -60,7 +57,7 @@
         <div class="rows-cards">
           <!-- row card item 1-->
           <div class="row-card-item">
-            <h3>Faça mais com Whitepace</h3>
+            <h3>Faça mais com Techwork</h3>
             <p>
               Criação de websites, loja virtual, blogues para pequenas, médias e
               grandes empresas. Ter um site online nunca foi tão fácil.
@@ -200,23 +197,23 @@
     <section class="clientes">
       <div class="container">
         <h3>Clientes e parceiros</h3>
-        <p>Prestamos serviços para todo tipo de empresa ou projetos</p>
+        <p>Prestamos serviços para todo tipo de empresa ou projeto</p>
         <div class="rows-cards">
           <!-- row card item 1-->
           <div class="row-card-item">
-            <img src="img/apple.png" alt="" />
+            <img src="img/pfaudler.png" alt="" />
           </div>
           <!-- row card item 2-->
           <div class="row-card-item">
-            <img src="img/microsoft.png" alt="" />
+            <img src="img/slack.png" alt="" />
           </div>
           <!-- row card item 3-->
           <div class="row-card-item">
-            <img src="img/slack.png" alt="" />
+            <img src="img/eliane-indiani.png" alt="" />
           </div>
           <!-- row card item 4-->
           <div class="row-card-item">
-            <img src="img/google.png" alt="" />
+            <img src="img/wow.png" alt="" />
           </div>
         </div>
       </div>
@@ -245,7 +242,6 @@
     </section>
     <!--End Sobre --------------------------------------->
 
-    
     <!-- Seção Depoimentos ---------------------------------->
     <section class="depoimentos">
       <div class="container">
@@ -310,86 +306,94 @@
     </section>
     <!-- End Depoimentos --------------------------------->
 
-
     <!-- Contato------------------------------------------>
     <section id="contato" class="contato">
       <div class="container">
         <h3>Contato</h3>
-        <p>Entre em contato que retornaremos em tempo recorde, para que seu projeto não fique só no papel.</p>
+        <p>
+          Entre em contato que retornaremos em tempo recorde<br />para que seu
+          projeto não fique só no papel.
+        </p>
 
         <div class="contato-info">
-
           <div class="left-side">
             <div>
               <i class="fa fa-map-marker"></i>
               <p>
-                Av. Charles Schnneider, 1700 - Vila Costa, Taubaté-SP, 12040-900
+                Av. Charles Schnneider, 1700 - Vila Costa<br />
+                CEP: 12040-900 - Taubaté/SP
               </p>
             </div>
             <div>
               <i class="fa fa-envelope"></i>
-              <p>comercial@whitepace.com.br</p>
+              <p>comercial@techwork.com.br</p>
             </div>
             <div>
               <i class="fa fa-phone"></i>
               <p>+55 12 99164-9931</p>
             </div>
-            <div class="mapa">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.987005210367!2d-45.58438422388417!3d-23.024249342081127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccf8675370199b%3A0x26b086d017a216fd!2sTaubat%C3%A9%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1699924235021!5m2!1spt-BR!2sbr"
-                width="600"
-                height="500"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
+            <div class="links">
+              <a id="icon" href="#"><i class="fa fa-facebook"></i></a>
+              <a id="icon" href="#"><i class="fa fa-instagram"></i></a>
+              <a id="icon" href="#"><i class="fa fa-github"></i></a>
+              <a id="icon" href="#"><i class="fa fa-linkedin"></i></a>
             </div>
           </div>
 
           <div class="right-side">
             <form action="https://api.staticforms.xyz/submit" method="post">
               <label>Nome:</label>
-              <input type="text" name="name" placeholder="Digite seu nome" required />
+              <input type="text" name="name" required autocomplete="nome" />
               <label>E-mail:</label>
-              <input type="email" name="email" placeholder="Digite seu e-mail" required />
+              <input type="email" name="email" required autocomplete="nome" />
               <label>Assunto:</label>
-              <input type="text" name="assunto" placeholder="Digite o assunto" required />
+              <input type="text" name="assunto" required autocomplete="nome" />
               <label>Mensagem:</label>
-              <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+              <textarea name="message" cols="30" rows="10" required></textarea>
               <div id="button">
-                <button type="submit" name="enviar" class="btn animate-btn">Enviar Mensagem</button>
-
+                <button type="submit" name="enviar" class="btn animate-btn">
+                  Enviar Mensagem
+                </button>
               </div>
 
-              
-              <input type="hidden" name="accessKey" value="fffa98ab-815c-4245-b7d4-10c496fdffdb">
-              <input type="hidden" name="replyTo" value="@">
-              <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
-              
+              <input
+                type="hidden"
+                name="accessKey"
+                value="fffa98ab-815c-4245-b7d4-10c496fdffdb"
+              />
+              <input type="hidden" name="replyTo" value="@" />
+              <input
+                type="hidden"
+                name="redirectTo"
+                value="http://127.0.0.1:5500/obrigado.html"
+              />
             </form>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="mapa">
+      <div class="mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.987005210367!2d-45.58438422388417!3d-23.024249342081127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccf8675370199b%3A0x26b086d017a216fd!2sTaubat%C3%A9%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1699924235021!5m2!1spt-BR!2sbr"
+          width="100%"
+          height="700"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
     <!-- End Contato ------------------------------------->
-
-
-
 
     <!--Footer ------------------------------------------->
     <footer>
       <div class="container">
-        <div class="links">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-          <a href="#"><i class="fa fa-github"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-        </div>
         <div class="footer-text">
           <p>
-            Copyright © 2023 - <span>WebDev</span> | Todos os direitos
+            Copyright © 2023 - <span>Techwork</span> | Todos os direitos
             reservados.
           </p>
           <a href="#">Política de privacidade e proteção de dados pessoais.</a>
